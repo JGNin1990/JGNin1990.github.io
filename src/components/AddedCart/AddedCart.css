@@ -1,0 +1,27 @@
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-btn {
+    text-align: center;
+    width: 100%;
+    border-radius: 0%;
+  }
+  
+  .count {
+    font-size: 14px;
+  }
+  
+  .cart {
+    border-radius: 11px;
+    height: 27px;
+    width: 37px;
+    padding: 5px 8px;
+  }
+  

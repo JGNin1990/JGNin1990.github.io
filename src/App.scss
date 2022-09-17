@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+$primary: #FF7827;
+$secondary: #FFDD3A;
+$danger: #F70E0E;
+
+
+@import './node_modules/bootstrap/scss/bootstrap';
+
+
+
+.header{
+  font-family: 'Nabla', cursive;
+};
+
+
+.ro {
+  position: relative;
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.f-input {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 80px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.btnControl {
+  padding: 10px 25px;
+}
+
+.dialog {
+  z-index: 50;
+  width: 25%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.cartCount {
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: 800;
+  position: absolute;
+  color: red;
+  top: -20px;
+  right: -16px;
+}
+/* .rate {
+  padding: 0;
+} */
